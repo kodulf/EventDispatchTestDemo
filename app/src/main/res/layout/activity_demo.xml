@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DemoActivity">
+
+    <bjpkten.eventdispatchtestdemo.MyLinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="#880"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <bjpkten.eventdispatchtestdemo.MyLinearLayout
+            android:id="@+id/myLinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="60dp"
+            android:background="#2090"
+            android:gravity="center"
+            android:padding="20dp">
+
+            <bjpkten.eventdispatchtestdemo.MyView
+                android:id="@+id/myView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#610f"
+                android:text="--- My   View ----"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </bjpkten.eventdispatchtestdemo.MyLinearLayout>
+    </bjpkten.eventdispatchtestdemo.MyLinearLayout>
+
+</android.support.constraint.ConstraintLayout>

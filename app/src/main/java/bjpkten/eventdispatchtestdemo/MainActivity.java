@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+/**
+ * https://www.jianshu.com/p/e99b5e8bd67b, please check this , it is good
+ */
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = "kodulf";

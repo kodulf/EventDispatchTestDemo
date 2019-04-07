@@ -44,11 +44,11 @@ public class DemoActivity extends AppCompatActivity {
 
         mLinearLayoutDispatchSelect = intent.getIntExtra("linearlayout_dispatch",mLinearLayoutDispatchSelect);
         mLinearLayoutOntouchSelect = intent.getIntExtra("linearlayout_ontouch",mLinearLayoutOntouchSelect);
-        mLinearLayoutOnInterrupteSelect = intent.getIntExtra("linearlayout_dispatch", mLinearLayoutOnInterrupteSelect);
+        mLinearLayoutOnInterrupteSelect = intent.getIntExtra("linearlayout_interrupte", mLinearLayoutOnInterrupteSelect);
 
         mLinearLayoutDispatchSelect2 = intent.getIntExtra("linearlayout_dispatch2",mLinearLayoutDispatchSelect2);
         mLinearLayoutOntouchSelect2 = intent.getIntExtra("linearlayout_ontouch2",mLinearLayoutOntouchSelect2);
-        mLinearLayoutOnInterrupteSelect2 = intent.getIntExtra("linearlayout_dispatch2", mLinearLayoutOnInterrupteSelect2);
+        mLinearLayoutOnInterrupteSelect2 = intent.getIntExtra("linearlayout_interrupte2", mLinearLayoutOnInterrupteSelect2);
 
         mViewDispatchSelect = intent.getIntExtra("view_dispatch",mViewDispatchSelect);
         mViewOntouchSelect = intent.getIntExtra("view_ontouch",mViewOntouchSelect);

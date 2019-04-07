@@ -250,11 +250,11 @@ public class MainActivity extends AppCompatActivity {
 
         intent.putExtra("linearlayout_dispatch",mLinearLayoutDispatchSelect);
         intent.putExtra("linearlayout_ontouch",mLinearLayoutOntouchSelect);
-        intent.putExtra("linearlayout_dispatch", mLinearLayoutOnInterrupteSelect);
+        intent.putExtra("linearlayout_interrupte", mLinearLayoutOnInterrupteSelect);
 
         intent.putExtra("linearlayout_dispatch2",mLinearLayoutDispatchSelect2);
         intent.putExtra("linearlayout_ontouch2",mLinearLayoutOntouchSelect2);
-        intent.putExtra("linearlayout_dispatch2", mLinearLayoutOnInterrupteSelect2);
+        intent.putExtra("linearlayout_interrupte2", mLinearLayoutOnInterrupteSelect2);
 
         intent.putExtra("view_dispatch",mViewDispatchSelect);
         intent.putExtra("view_ontouch",mViewOntouchSelect);

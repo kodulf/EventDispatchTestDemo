@@ -52,6 +52,11 @@ public class MyLinearLayout extends LinearLayout {
 
 
     @Override
+    public void requestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+        super.requestDisallowInterceptTouchEvent(disallowIntercept);
+    }
+
+    @Override
     public boolean onTouchEvent(MotionEvent ev) {
         getActionAndUpdate(ev,"onTouchEvent");
         switch (mLinearLayoutOntouchSelect){

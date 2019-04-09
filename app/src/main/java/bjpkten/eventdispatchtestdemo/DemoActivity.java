@@ -56,13 +56,13 @@ public class DemoActivity extends AppCompatActivity {
         mMyLinearLayout = (MyLinearLayout) findViewById(R.id.myLinearLayout);
         mMyLinearLayout.mLinearLayoutOntouchSelect = mLinearLayoutOntouchSelect;
         mMyLinearLayout.mLinearLayoutDispatchSelect = mLinearLayoutDispatchSelect;
-        mMyLinearLayout.mLinearLayoutonInterceptTouchSelect = mLinearLayoutOntouchSelect;
+        mMyLinearLayout.mLinearLayoutonInterceptTouchSelect = mLinearLayoutOnInterrupteSelect;
 
 
         mMyLinearLayout2 = (MyLinearLayout) findViewById(R.id.myLinearLayout2);
         mMyLinearLayout2.mLinearLayoutOntouchSelect = mLinearLayoutOntouchSelect2;
         mMyLinearLayout2.mLinearLayoutDispatchSelect = mLinearLayoutDispatchSelect2;
-        mMyLinearLayout2.mLinearLayoutonInterceptTouchSelect = mLinearLayoutOntouchSelect2;
+        mMyLinearLayout2.mLinearLayoutonInterceptTouchSelect = mLinearLayoutOnInterrupteSelect2;
 
 
         mMyView = (MyView)findViewById(R.id.myView);
